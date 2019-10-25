@@ -247,7 +247,7 @@ public class ExecutorsGame implements Game {
         for (MemoryBlock memoryBlock : memory.getMemoryBlocks()) {
             for (MemoryCell cell : memoryBlock.getCells()) {
                 cell.setAccessed(false);
-                if (cell.getState().equals(FREE)) {
+                if (!cell.getState().equals(ALLOCATED) && !cell.getState().equals(FORTIFIED)) {
                     cell.setOwner(null);
                 }
             }
@@ -327,7 +327,7 @@ public class ExecutorsGame implements Game {
                                 curr = "F(" + cell.getOwner().getName() + ")";
                                 break;
                             default:
-                                curr = "ERROR: owned but neither A nor F";
+                                curr = "ERROR: owned and neither A nor F but " + cell.getState();
                                 break;
                         }
                     } else {
