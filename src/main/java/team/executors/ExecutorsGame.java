@@ -209,6 +209,8 @@ public class ExecutorsGame implements Game {
                             case FREE:
                                 responseStats.setFreeCells(responseStats.getFreeCells() + 1);
                                 break;
+                            default:
+                                break;
                         }
                     }
                 }
@@ -270,6 +272,8 @@ public class ExecutorsGame implements Game {
                                 score.setOwnedCells(score.getOwnedCells() + 1);
                                 score.setFortifiedCells(score.getFortifiedCells() +1);
                                 break;
+                            default:
+                                break;
                         }
                         ownedNCells +=1;
                     }
@@ -284,9 +288,79 @@ public class ExecutorsGame implements Game {
         return ret;
     }
 
+    public static String centerPad(final String pStr, final int size) {
+        String str = pStr == null ? "" : pStr;
+        if(str.length() >= size) {
+            return str;
+        }
+        StringBuilder sb = new StringBuilder(size);
+        sb.append(str);
+        boolean pre = true;
+        while(sb.length() < size) {
+            if(pre) {
+                sb.insert(0, " ");
+            } else {
+                sb.append(" ");
+            }
+            pre = !pre;
+        }
+        return sb.toString();
+    }
+
     @Override
     public String visualize() {
-        return "";
+        try {
+            StringBuilder sb = new StringBuilder();
+            for (MemoryBlock memoryBlock : memory.getMemoryBlocks()) {
+                boolean first = true;
+                for (MemoryCell cell : memoryBlock.getCells()) {
+                    if(!first) {
+                        sb.append("  |  ");
+                    }
+                    final String curr;
+                    if (cell.getOwner() != null) {
+                        switch (cell.getState()) {
+                            case ALLOCATED:
+                                 curr = "A(" + cell.getOwner().getName() + ")";
+                                 break;
+                            case FORTIFIED:
+                                curr = "F(" + cell.getOwner().getName() + ")";
+                                break;
+                            default:
+                                curr = "ERROR: owned but neither A nor F";
+                                break;
+                        }
+                    } else {
+                        switch (cell.getState()) {
+                        case ALLOCATED:
+                            curr = "ERROR: A but not owned";
+                            break;
+                        case FORTIFIED:
+                            curr = "ERROR: F but not owned";
+                            break;
+                        case CORRUPT:
+                        case FREE:
+                        case SYSTEM:
+                            curr = cell.getState().toString();
+                            break;
+                        case OWNED_ALLOCATED:
+                        case OWNED_FORTIFIED:
+                            curr = "ERROR: NOT ALLOWED: " + cell.getState();
+                            break;
+                        default:
+                            curr = "ERROR: UNKNOWN: " + cell.getState();
+                        }
+                    }
+                    sb.append(centerPad(curr, MemoryState.FORTIFIED.toString().length() + 2));
+                    first = false;
+                }
+                sb.append("\n");
+            }
+            return sb.toString();
+        } catch(Exception e) {
+            e.printStackTrace();
+            return String.valueOf(e);
+        }
     }
 
     private boolean anyOutOfBound(List<Integer> cells) {
