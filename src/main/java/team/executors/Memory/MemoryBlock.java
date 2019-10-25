@@ -1,4 +1,4 @@
-package com.loxon.javachallenge.memory;
+package team.executors.Memory;
 
 import com.loxon.javachallenge.memory.api.MemoryState;
 import com.loxon.javachallenge.memory.api.Player;

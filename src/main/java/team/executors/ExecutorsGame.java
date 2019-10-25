@@ -1,12 +1,17 @@
-package com.loxon.javachallenge.memory;
+package team.executors;
 
 import com.loxon.javachallenge.memory.api.*;
 import com.loxon.javachallenge.memory.api.communication.commands.*;
 import com.loxon.javachallenge.memory.api.communication.general.*;
+import team.executors.Memory.Memory;
+import team.executors.Memory.MemoryBlock;
+import team.executors.Memory.MemoryCell;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import static com.loxon.javachallenge.memory.api.MemoryState.*;
 
 public class ExecutorsGame implements Game {
 
@@ -54,7 +59,6 @@ public class ExecutorsGame implements Game {
             if (request instanceof CommandAllocate) {
                 CommandAllocate allocate = (CommandAllocate) request;
                 List<Integer> allocatedCells = new ArrayList<>();
-                boolean doNotAllocate = false;
 
                 if (!anyOutOfBound(allocate.getCells()) && indicesInSameBlock(allocate.getCells())) {
                     for (Integer cell : allocate.getCells()) {
@@ -69,7 +73,7 @@ public class ExecutorsGame implements Game {
                         }
                     }
                 }
-                tempResults.add(new TempResult(allocate.getPlayer(), doNotAllocate || allocatedCells.isEmpty() ? Collections.emptyList() : allocatedCells));
+                tempResults.add(new TempResult(allocate.getPlayer(), allocatedCells.isEmpty() ? Collections.emptyList() : allocatedCells));
             }
 
             // Free command
@@ -134,18 +138,18 @@ public class ExecutorsGame implements Game {
                                 || (swap.getCells().get(1) != null && swapPair.hasCell(swap.getCells().get(1)))) {
                             canSwap = false;
                             if (swap.getCells().get(0) != null) {
-                                memory.setCellState(swap.getCells().get(0), MemoryState.CORRUPT);
+                                memory.setCellState(swap.getCells().get(0), CORRUPT);
                             }
                             if (swap.getCells().get(1) != null) {
-                                memory.setCellState(swap.getCells().get(1), MemoryState.CORRUPT);
+                                memory.setCellState(swap.getCells().get(1), CORRUPT);
                             }
-                            memory.setCellState(swapPair.getCellA(), MemoryState.CORRUPT);
-                            memory.setCellState(swapPair.getCellB(), MemoryState.CORRUPT);
+                            memory.setCellState(swapPair.getCellA(), CORRUPT);
+                            memory.setCellState(swapPair.getCellB(), CORRUPT);
                         }
                     }
                     if (swap.getCells().get(0) != null && swap.getCells().get(1) != null && (swap.getCells().get(0).equals(swap.getCells().get(1)))) {
                         canSwap = false;
-                        memory.setCellState(swap.getCells().get(0), MemoryState.CORRUPT);
+                        memory.setCellState(swap.getCells().get(0), CORRUPT);
                     }
                     if (canSwap) {
                         for (Integer cell : swap.getCells()) {
@@ -158,7 +162,7 @@ public class ExecutorsGame implements Game {
                                 break;
                             }
                             MemoryState currentState = memory.getCellState(cell);
-                            if (currentState.equals(MemoryState.SYSTEM) || currentState.equals(MemoryState.FORTIFIED)) {
+                            if (currentState.equals(SYSTEM) || currentState.equals(FORTIFIED)) {
                                 canSwap = false;
                                 break;
                             }
@@ -231,7 +235,7 @@ public class ExecutorsGame implements Game {
         for (TempResult tempResult : tempResults) {
             List<Integer> successful = new ArrayList<>();
             for (Integer integer : tempResult.getCells()) {
-                if (!memory.getCellState(integer).equals(MemoryState.CORRUPT)) {
+                if (!memory.getCellState(integer).equals(CORRUPT)) {
                     successful.add(integer);
                 }
             }
@@ -241,7 +245,7 @@ public class ExecutorsGame implements Game {
         for (MemoryBlock memoryBlock : memory.getMemoryBlocks()) {
             for (MemoryCell cell : memoryBlock.getCells()) {
                 cell.setAccessed(false);
-                if (cell.getState().equals(MemoryState.FREE)) {
+                if (cell.getState().equals(FREE)) {
                     cell.setOwner(null);
                 }
             }

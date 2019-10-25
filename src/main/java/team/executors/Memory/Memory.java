@@ -1,4 +1,4 @@
-package com.loxon.javachallenge.memory;
+package team.executors.Memory;
 
 import com.loxon.javachallenge.memory.api.MemoryState;
 import com.loxon.javachallenge.memory.api.Player;
@@ -69,6 +69,8 @@ public class Memory {
 
             return true;
         } else {
+            cellA.setState(MemoryState.CORRUPT);
+            cellB.setState(MemoryState.CORRUPT);
             return false;
         }
     }

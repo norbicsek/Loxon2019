@@ -1,4 +1,4 @@
-package com.loxon.javachallenge.memory;
+package team.executors;
 
 public class SwapPair {
 
