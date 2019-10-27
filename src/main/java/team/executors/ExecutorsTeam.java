@@ -3,6 +3,7 @@ package team.executors;
 import java.util.Arrays;
 import java.util.List;
 
+import com.loxon.javachallenge.memory.api.MemoryState;
 import com.loxon.javachallenge.memory.api.Player;
 import com.loxon.javachallenge.memory.api.communication.commands.CommandAllocate;
 import com.loxon.javachallenge.memory.api.communication.commands.CommandFortify;
@@ -17,20 +18,26 @@ public abstract class ExecutorsTeam {
 
     protected Player player;
 
+    protected int rounds;
+
+    protected List<MemoryState> initialMemory;
+
     public abstract Command nextRequest(int ri);
 
     public abstract void response(int ri, Response response);
 
+    public void init(
+        Player player
+        , int rounds
+        , List<MemoryState> initialMemory
+    ) {
+        this.player = player;
+        this.rounds = rounds;
+        this.initialMemory = initialMemory;
+    }
+
     public String getName() {
         return getClass().getSimpleName();
-    }
-
-    public Player getPlayer() {
-        return player;
-    }
-
-    public void setPlayer(Player player) {
-        this.player = player;
     }
 
     @Override

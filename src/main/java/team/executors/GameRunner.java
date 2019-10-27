@@ -57,7 +57,7 @@ public class GameRunner {
         for(int ti = 0; ti < teams.length; ti++) {
             ExecutorsTeam team = teams[ti];
             Player player = game.registerPlayer(team.getName());
-            team.setPlayer(player);
+            team.init(player, rounds, initialMemory);
             teamByPlayer.put(player, team);
         }
         game.startGame(initialMemory, rounds);
