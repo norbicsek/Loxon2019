@@ -1,11 +1,11 @@
-package team.executors.impl;
+package team.executors.impl.nk;
 
 import com.loxon.javachallenge.memory.api.communication.general.Command;
 import com.loxon.javachallenge.memory.api.communication.general.Response;
 
-import team.executors.ExecutorsTeam;
+import team.executors.impl.ExecutorsTeam;
 
-public class FL extends ExecutorsTeam {
+public class NK extends ExecutorsTeam {
 
     @Override
     public Command nextRequest(int ri) {

@@ -2,10 +2,10 @@ package team.executors.main;
 
 import com.loxon.javachallenge.memory.api.MemoryState;
 
-import team.executors.ExecutorsTeam;
-import team.executors.impl.FG;
-import team.executors.impl.FL;
-import team.executors.impl.NK;
+import team.executors.impl.ExecutorsTeam;
+import team.executors.impl.fg.FG;
+import team.executors.impl.fl.FL;
+import team.executors.impl.nk.NK;
 
 public abstract class MainAbstract {
 

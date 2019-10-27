@@ -1,9 +1,9 @@
-package team.executors.impl;
+package team.executors.impl.fg;
 
 import com.loxon.javachallenge.memory.api.communication.general.Command;
 import com.loxon.javachallenge.memory.api.communication.general.Response;
 
-import team.executors.ExecutorsTeam;
+import team.executors.impl.ExecutorsTeam;
 
 public class FG extends ExecutorsTeam {
 

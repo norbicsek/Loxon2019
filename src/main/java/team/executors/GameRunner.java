@@ -11,6 +11,7 @@ import com.loxon.javachallenge.memory.api.Player;
 import com.loxon.javachallenge.memory.api.communication.general.Command;
 import com.loxon.javachallenge.memory.api.communication.general.Response;
 
+import team.executors.impl.ExecutorsTeam;
 import team.executors.util.GameUtils;
 
 public class GameRunner {
