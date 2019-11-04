@@ -1,0 +1,15 @@
+com\loxon\javachallenge\api\communication\commands\CommandAllocate.class
+com\loxon\javachallenge\api\communication\commands\CommandFortify.class
+com\loxon\javachallenge\api\communication\commands\ResponseStats.class
+com\loxon\javachallenge\api\communication\general\Command.class
+com\loxon\javachallenge\api\communication\commands\CommandSwap.class
+com\loxon\javachallenge\api\MemoryState.class
+com\loxon\javachallenge\api\communication\general\CommandGeneral.class
+com\loxon\javachallenge\api\communication\commands\ResponseScan.class
+com\loxon\javachallenge\api\communication\general\Response.class
+com\loxon\javachallenge\api\communication\commands\CommandFree.class
+com\loxon\javachallenge\api\communication\commands\CommandScan.class
+com\loxon\javachallenge\api\communication\commands\CommandStats.class
+com\loxon\javachallenge\api\communication\commands\CommandRecover.class
+com\loxon\javachallenge\api\communication\User.class
+com\loxon\javachallenge\api\communication\commands\ResponseSuccessList.class

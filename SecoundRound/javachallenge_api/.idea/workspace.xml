@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="320d2800-65fb-4095-8873-bd350c21d578" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../docs2019/2019_Java_Challenge_2ndRound.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../docs2019/2019_Java_Challenge_2ndRound.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../docs2019/reound2/JC_DB.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../docs2019/reound2/LJC19_teamnames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../docs2019/reound2/init_db.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../docs2019/reound2/user_maping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/META-INF/ChallengeClient.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/ChallengeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/impl/AlgorithmImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/impl/qka/Decision$DecisionBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/impl/qka/Decision.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/impl/qka/MemCell$MemCellBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/impl/qka/MemCell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/impl/qka/NotSoAIBot$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/impl/qka/NotSoAIBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/impl/qka/WeightBasedAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/websocket/Algorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/websocket/CommandHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/websocket/CommandMessageHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/websocket/MyStompSessionHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/websocket/MyStompSessionHandler$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/websocket/MyStompSessionHandler$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_client/src/main/webapp/WEB-INF/classes/com/loxon/javachallenge/challenge/websocket/MyStompSessionHandler.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/ResponseSuccessList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandAllocate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="28" column="50" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandRecover.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="27" column="9" selection-start-line="25" selection-end-line="27" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/ResponseStats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="129" selection-start-line="129" selection-end-line="131" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandStats.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="25" column="9" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/ResponseScan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="833">
+              <caret line="65" column="41" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="41" />
+              <folding>
+                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javachallene_api.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/memory/api/communication/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/memory/api/communication/general/Command.java" />
+        <option value="$PROJECT_DIR$/lombok.config" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/general/CommandGeneral.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/general/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/general/Response.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandAllocate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandFortify.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandFree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandRecover.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandScan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandSwap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandStats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/ResponseScan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/ResponseStats.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/ResponseSuccessList.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2115" />
+    <option name="y" value="-24" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="javachallene_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javachallenge_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javachallene_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javachallenge_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javachallene_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javachallenge_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javachallene_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javachallenge_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javachallene_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javachallenge_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javachallene_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javachallenge_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="communication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="javachallene_api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="javachallenge_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="communication" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.loxon.javachallenge" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.loxon.javachallenge.memory.api.communication" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="320d2800-65fb-4095-8873-bd350c21d578" name="Default Changelist" comment="" />
+      <created>1571829610218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571829610218</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="CheckStyle" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="CodeStream" order="5" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/memory/api/Game.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/memory/api/PlayerScore.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/memory/api/Player.java" />
+    <entry file="file://$PROJECT_DIR$/junit_test.iml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding>
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1055#1056#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1238#1239#0" expanded="true" />
+            <element signature="e#1297#1298#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+            <element signature="e#1408#1409#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+            <element signature="e#1679#1680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/general/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="47" />
+          <folding>
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/general/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/general/CommandGeneral.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandSwap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandFree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandFortify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/MemoryState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lombok.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/ResponseSuccessList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandAllocate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="50" selection-start-line="25" selection-start-column="8" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandRecover.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="9" selection-start-line="25" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/ResponseStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="129" selection-start-line="129" selection-end-line="131" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/CommandStats.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" column="9" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/loxon/javachallenge/api/communication/commands/ResponseScan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="65" column="41" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="41" />
+          <folding>
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javachallene_api.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
